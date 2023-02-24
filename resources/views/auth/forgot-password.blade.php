@@ -47,7 +47,7 @@
           <a href="login.php">Login</a>
         </p>
         <p class="mb-0">
-          <a href="register.php" class="text-center">Register a new membership</a>
+          <a href="{{ url('/register') }}" class="text-center">Register a new membership</a>
         </p>
       </div>
       <!-- /.login-card-body -->

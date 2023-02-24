@@ -25,7 +25,7 @@
                with font-awesome or any other icon font library -->
 
           <li class="nav-item">
-            <a href="../products/" class="nav-link">
+            <a href="{{ url('/dashboard') }}" class="nav-link">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>
                 Dashboard
@@ -34,7 +34,7 @@
 
           </li>
           <li class="nav-item">
-            <a href="../products/" class="nav-link">
+            <a href="{{ url('/products') }}" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                Products
