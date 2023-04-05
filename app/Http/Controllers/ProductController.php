@@ -82,7 +82,7 @@ class ProductController extends Controller
             'product_description' => 'required',
             'product_status' => 'required',
             
-        ]);
+        ]); 
     
         $product->update($request->all());
     
